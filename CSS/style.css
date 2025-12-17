@@ -1,0 +1,94 @@
+* {
+  margin: 8px;
+  padding: 0px;
+  background-color: aliceblue;
+}
+
+.margin {
+  border: solid blue 2px;
+  margin: 24px;
+}
+
+.padding {
+  border: solid red 2px;
+  padding: 24px;
+  background-color: aqua;
+}
+
+.description > p {
+  margin: 4px;
+  background-color: rgb(58, 58, 58);
+  color: white;
+}
+
+.applyBorders {
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1rem;
+}
+.applyBorders > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dashed {
+  display: inline;
+  border: dashed red 4px;
+  padding: 4px;
+  writing-mode: vertical-lr;
+}
+
+.dotted {
+  display: inline;
+  border: dotted blue 4px;
+  padding: 4px;
+  writing-mode: vertical-lr;
+}
+
+.solid {
+  display: inline;
+  border: solid brown 4px;
+  padding: 4px;
+  writing-mode: vertical-lr;
+}
+
+.double {
+  display: inline;
+  border: double green 4px;
+  padding: 4px;
+  writing-mode: vertical-lr;
+}
+
+.groove {
+  display: inline;
+  border: groove rgb(220, 38, 193) 15px;
+  padding: 4px;
+ 
+}
+
+.inset {
+  display: inline;
+  border: inset rgb(232, 110, 9) 15px;
+  padding: 4px;
+ 
+}
+
+.ridge {
+  display: inline;
+  border: ridge rgb(246, 255, 0) 15px;
+  padding: 4px;
+  
+}
+
+.outset {
+  display: inline-block;
+  border: outset red 15px;
+  padding: 4px;
+}
+
+.highlight {
+  color:rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+}

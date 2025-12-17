@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML PRACTICE</title>
+</head>
+
+
+<body>
+  <h1>HTML DRILL COLLECTION</h1>
+
+  <ul style="margin-bottom: 4em;">
+    <li>
+      <h3>NAVIGATION AND LINKS</h3>
+      <ol>
+        
+        <li>
+          <p>Create a list of inline links horizontally.</p>
+          <nav style="border: double 4px green;padding: 8px; font-size: 1.1em;">
+            <ul style="list-style: none; display: flex; justify-content: space-around;">
+              <a href="www.examplehome.com"><li>HOME</li></a>
+              <a href="www.examplegallery.com"><li>GALLERY</li></a>
+              <a href="www.exampleAbout.com"><li>ABOUT</li></a>
+              <a href="www.examplecontact.com"><li>CONTACT</li></a>
+            </ul>
+          </nav>
+        </li>
+
+
+        <li>
+          <p>Build a menu with lists.</p>
+          <div style="display: flex; justify-content: space-around;">
+            <div style="border: solid red 4px; padding: 8px; display: inline;">
+              <h4 style="text-align: center;">DODOVI RESTAURANT MENU</h4>
+              <table border="1">
+                <tr>
+                  <th>AVAILABLE FOODS</th>
+                  <th>PRICES</th>
+                </tr>
+                <tr>
+                  <td>Banku and Tilapia and Pepper</td>
+                  <td>60 cedis</td>
+                </tr>            
+                <tr>
+                  <td>Fried Rice and Chicken</td>
+                  <td>60 cedis</td>
+                </tr>
+                <tr>
+                  <td>Beans and korkor</td>
+                  <td>30 cedis</td>
+                </tr>
+                <tr>
+                  <td>Jollof and Chicken</td>
+                  <td>30 cedis</td>
+                </tr>
+                <tr>
+                  <td>Omotuo and Palmnut soup</td>
+                  <td>30 cedis</td>
+                </tr>
+                <tr>
+                  <td>Omotuo and groundnut soup</td>
+                  <td>30 cedis</td>
+                </tr>
+                <tr>
+                  <td>Aprapransa and crab</td>
+                  <td>30 cedis</td>
+                </tr>
+                <tr>
+                  <td>Fufu and goat light soup</td>
+                  <td>30 cedis</td>
+                </tr>
+                <tr>
+                  <td>Fufu and Grasscutter meat with light soup</td>
+                  <td>30 cedis</td>
+                </tr>
+                <tr>
+                  <td>Tuo Zhafi and beef</td>
+                  <td>30 cedis</td>
+                </tr>
+              </table>
+            </div>
+            <div style="display: inline; border: solid blue 4px;">
+              <h4 style="text-align: center;">DODOVI RESTAURANT MENU</h4>
+              <ol>
+                <li>BANKU AND Tilapia</li>
+                <li>FRIED RICE AND Chicken</li>
+                <li>BEANS AND korkor</li>
+                <li>JOLLOF AND Chicken</li>
+                <li>OMOTUO AND GROUNDNUT SOUP</li>
+                <li>OMOTUO AND PALMNUT SOUP</li>
+                <li>APRAPRANSA AND crab</li>
+                <li>FUFU AND GOAT LIGHT SOUP</li>
+                <li>FUFU AND GRASSCUTTER MEAT WITH LIGHT soup</li>
+                <li>TUO ZHAFI AND BEEF</li>
+              </ol>
+            </div>
+          </div>
+
+        </li>
+
+        <li>
+          <p>Create a pagination markup</p>
+          <div>
+            <ul style="list-style: none;">
+              <li style="border: solid 1px  gray; display: inline; padding: 2px; margin: 4px; text-decoration: none;"><a href="#">1</a></li>
+              <li style="border: solid 1px  gray; display: inline; padding: 2px; margin: 4px;"><a href="#">2</a></li>
+              <li style="border: solid 1px  gray; display: inline; padding: 2px; margin: 4px;"><a href="#">3</a></li>
+              <li style="border: solid 1px  gray; display: inline; padding: 2px; margin: 4px;"><a href="#">4</a></li>
+              <li style="border: solid 1px  gray; display: inline; padding: 2px; margin: 4px;"><a href="#">5</a></li>
+              <li style="border: solid 1px gray; display: inline; padding: 2px; margin: 4px;"><a href="#">Next</a></li>
+            </ul>
+          </div>
+        </li>
+
+        <li>
+          <p>Add a navigation with dropdown</p>
+          <select>
+            <option value="home">Home</option>
+            <option value="Gallery">Gallery</option>
+            <option value="About">About</option>
+            <option value="Contact">Contact</option>
+          </select>
+        </li>
+
+        <li>
+            <p>Create a sitemap using nested lists</p>
+            <div>
+              <nav aria-label="sitemap">
+                <ul>
+                  <li>
+                    <a href="/">Home</a>
+                  </li>
+                  <li>
+                    <a href="/products/">Products</a>
+                    <ul>
+                      <li>
+                        <a href="/products/category-a/">Category A</a>
+                        <ul>
+                          <li><a href="/products/category-a/product-1">Product 1</a></li>
+                          <li><a href="/products/category-a/product-2">Product 2</a></li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="/products/category-b/">Category B</a>
+                        <ul>
+                          <li><a href="/products/category-b/product-3">Product 3</a></li>
+                          <li><a href="/products/category-b/product-4">Product 4</a></li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="/products/all/">All Products</a>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <a href="/blog/">Blog</a>
+                    <ul>
+                      <li><a href="/blog/category/announcements/">Announcements</a></li>
+                      <li><a href="/blog/category/tutorials/">Tutorials</a></li>
+                      <li>
+                        <a href="/blog/2025/">Archive 2025</a>
+                        <ul>
+                          <li><a href="/blog/2025/post-slug-1/">Post title 1</a></li>
+                          <li><a href="/blog/2025/post-slug-2/">Post title 2</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <a href="/support/">Support</a>
+                    <ul>
+                      <li><a href="/support/faq/">FAQ</a></li>
+                      <li><a href="/support/docs/">Documentation</a></li>
+                      <li><a href="/support/contact/">Contact</a></li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <a href="/legal/">Legal</a>
+                    <ul>
+                      <li><a href="/legal/privacy/">Privacy policy</a></li>
+                      <li><a href="/legal/terms/">Terms of use</a></li>
+                    </ul>
+                  </li>
+
+                </ul>
+              </nav>
+            </div>
+        </li>
+
+        <li>
+          <p>Create a figure with figcaption</p>
+          <figure role="img">
+            <img alt="My goals" src="Month of October habit tracker.png" style="width: 200px;">
+            <figcaption> This shows my achievement for October 2024</figcaption>
+          </figure>
+        </li>
+
+        <li>
+          <p>Breadcrumb navigation</p>
+          <nav style="padding: 4px; border: solid 1px; margin-bottom: 4px;">
+            <a href="/">Home</a> &gt;
+            <a href="/products/">Products</a>&gt;
+            <a href="/products/laptops/">Laptops</a>&gt;
+            <span>Gaming Laptops</span>
+          </nav>
+          <nav style="padding: 4px; border: solid 2px;">
+            <ul style="list-style: none;">
+              <li style="display: inline;"><a href="/">Home</a> &gt;</li>
+              <li style="display: inline;"><a href="/products/">Products</a>&gt;</li>
+              <li style="display: inline;"><a href="/products/laptops/">Laptops</a>&gt;</li>
+              <li style="display: inline;">Gaming Laptops</li>
+            </ul>
+          </nav>
+        </li>
+
+        <li>
+          <p>Embed an audion file with controls</p>
+          <div style="border: solid; padding: 8px;">
+            <audio controls>
+              <source src="CARTUS AGRI ENG 1 MIX.mp3" type="audio/mp3">Cartus jingle</audio>
+
+            </audio>
+          </div>
+        </li>
+
+        <li>
+          <p>Embed a video file with controls (add a video with autoplay muted)</p>
+
+          <div>
+            <center>
+            <video controls width="500px" autoplay muted poster="My dream house">
+              <source src="videoplayback (1).mp4" type="video/mp4">
+            </video>
+            </center>
+          </div>
+
+        </li>
+
+        <li>
+          <p>Embed a youtube video</p>
+          <div>
+
+          </div>
+        </li>
+
+        <!--
+      
+
+
+        4. Create a background audio loop.
+        5. Embed a YouTube video.
+
+        -->
+
+      </ol>
+    </li>
+  </ul>
+
+
+
+  
+</body>
+
+
+</html>
